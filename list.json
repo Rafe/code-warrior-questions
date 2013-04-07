@@ -11,7 +11,8 @@
     "9": "continous sequence sum",
     "10": "frequency of occurrences",
     "11": "random 5",
-    "12": "find all pair sum"
+    "12": "find all pair sum",
+    "13": "quicksort"
   },
   "moderate": {
     "1": "tbd"
