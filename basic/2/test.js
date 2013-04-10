@@ -11,6 +11,6 @@ describe("fabonacci", function() {
     setTimeout(function() {
       fab(1000);
       done()
-    });
+    }, 1000);
   });
 });
