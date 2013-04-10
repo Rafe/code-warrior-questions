@@ -2,17 +2,17 @@
   "basic": {
     "1": "binary search",
     "2": "fibonacci",
-    "3": "swap without varible",
-    "4": "tic tac toe",
-    "5": "factorail trailing zeros",
-    "6": "max with bit",
-    "7": "game of master mind",
-    "8": "number to words",
-    "9": "continous sequence sum",
-    "10": "frequency of occurrences",
-    "11": "random 5",
-    "12": "find all pair sum",
-    "13": "quicksort"
+    "3": "quicksort",
+    "4": "swap without varible",
+    "5": "tic tac toe",
+    "6": "factorail trailing zeros",
+    "7": "max with bit",
+    "8": "game of master mind",
+    "9": "number to words",
+    "10": "continous sequence sum",
+    "11": "frequency of occurrences",
+    "12": "random 5",
+    "13": "find all pair sum"
   },
   "moderate": {
     "1": "tbd"

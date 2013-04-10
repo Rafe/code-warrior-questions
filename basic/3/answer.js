@@ -1,8 +1,8 @@
-exports.quicksort = function (array) {
-  return partition(array, 0, array.length - 1, true)
+exports.quicksort = function (array, callback) {
+  return partition(array, 0, array.length - 1, true);
 }
 
-var partition = exports.partition = function (array, start, end, recursive) {
+var partition = exports.partition = function (array, start, end, recurtion) {
   if (start >= end) return;
   var left = start;
   var right = end;
@@ -18,7 +18,7 @@ var partition = exports.partition = function (array, start, end, recursive) {
     array[right] = temp;
   }
 
-  if (recursive) {
+  if (recurtion) {
     partition(array, start, left - 1, true);
     partition(array, right + 1, end, true);
   };

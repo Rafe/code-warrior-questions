@@ -1,5 +1,6 @@
 {
   "id": 1,
-  "name": "binarysearch",
-  "level": "basic"
+  "name": "binary search",
+  "level": "basic",
+  "author": "Jimmy Chao"
 }

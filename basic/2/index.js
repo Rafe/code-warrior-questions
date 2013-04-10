@@ -1,4 +1,2 @@
-var fabonacci = function(n) {
+var fabonacci = module.exports = function(n) {
 }
-
-module.exports = fabonacci;
