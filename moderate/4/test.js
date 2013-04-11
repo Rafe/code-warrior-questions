@@ -1,21 +1,23 @@
-var func = require("./");
-var expect = require("expect.js")
+var func = require('./');
 
-describe("func", function () {
-  it("can count how many 2s between 0 and n", function() {
-    expect(func(1)).to.equal(0);
-    expect(func(2)).to.equal(1);
-    expect(func(13)).to.equal(2);
-    expect(func(23)).to.equal(7);
-    expect(func(100)).to.equal(20);
-    expect(func(123)).to.equal(27);
-    expect(func(1000)).to.equal(300);
-    expect(func(10000)).to.equal(4000);
-    expect(func(20000)).to.equal(8001);
-    expect(func(20123)).to.equal(8151);
+var expect = require('expect.js');
+
+describe("func", function() {
+  it("should not include if and else", function() {
+    expect(func.toString()).to.not.contain('if');
+    expect(func.toString()).to.not.contain('switch');
+    expect(func.toString()).to.not.contain('?');
+    expect(func.toString()).to.not.contain('&&');
+    expect(func.toString()).to.not.contain('||');
   });
 
-  it("can handle large n", function() {
-    expect(func(12314120304213)).to.equal(16158814860684)
+  it("can return max number", function() {
+    expect(func(10, 20)).to.equal(20);
+    expect(func(20, 10)).to.equal(20);
+    expect(func(12341, 123)).to.equal(12341);
+    expect(func(413, 0)).to.equal(413);
+    expect(func(0, -10)).to.equal(0);
+    expect(func(100000000, 100000)).to.equal(100000000);
+    expect(func(123123, 321321)).to.equal(321321);
   });
 });

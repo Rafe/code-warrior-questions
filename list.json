@@ -10,34 +10,26 @@
     "8": "merge sort",
     "9": "tree depth",
     "10": "frequency of occurrences",
-    "11": "adds without +"
+    "11": "adds without +",
+    "12": "find all pair sum"
   },
   "moderate": {
-    "2": "shuffle the deck",
-    "3": "random generate set of integers",
-    "4": "count 2s",
-    "5": "",
-    "6": "find n-largest number",
-    "7": "",
-    "8": "longest word in words",
-    "9": "search string",
-    "10": "maintain median",
-    "11": "word shift",
-    "12": "largest sub square",
-    "13": "test",
-    "14": "largest possible retangle"
+    "1": "the game of master mind",
+    "2": "tic-tac-toe",
+    "3": "factorial trailing zeros",
+    "4": "max with bit",
+    "5": "number to words",
+    "6": "continous sequence sum",
+    "7": "different numbers",
+    "8": "shortest distance between words",
+    "9": "find n-largest number"
   },
-  "temp": {
-    "3": "swap-without-varible",
-    "4": "tic-tac-toe",
-    "5": "factorial-trailing-zeros",
-    "6": "max-with-bit",
-    "7": "game of master mind",
-    "8": "number to words",
-    "9": "continous sequence sum",
-    "11": "random 5",
-    "12": "find all pair sum",
-    "14": "different numbers",
-    "15": "stack with min"
+  "hard": {
+    "1": "count 2s",
+    "2": "word shift",
+    "3": "largest sub square",
+    "4": "matrix largest sum",
+    "5": "longest word in words",
+    "6": "search string"
   }
 }

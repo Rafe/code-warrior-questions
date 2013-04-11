@@ -1,5 +1,10 @@
-# Count 2s
+# Max with bit
 
-Write a method to count the number of 2s between 0 and n.
+Write a method which finds the maximum of two numbers
+You should not use if-else or any other comparison operator
+
+    Example
+    Input: 5, 10
+    Output: 10
 
 ##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)

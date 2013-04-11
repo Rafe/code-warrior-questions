@@ -1,8 +1,16 @@
-# Shortest distance between words
+#number to words
 
-you have a large text file containing words. Given any two words, 
-find the shortest distance (in terms of number of words) between them in the file. 
-Can you make the searching operation in O(1) time?
-What about the space complexity for your solution?
+Given an integer between 0 and 999,999,
+print an English phrase that describes the integer
+(no need for 's after units and 'and' between unit)
 
-##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)
+##example:
+
+    1234 =>
+    one thousand two hundred thirty four
+
+    417190 =>
+    four hundred seventeen thousand one hundred ninty
+
+
+##power by [code-warrior](http://code-warrior.herokuapp.com)

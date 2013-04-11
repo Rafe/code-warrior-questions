@@ -1,9 +1,17 @@
-var func = require("./");
-var expect = require("expect.js")
+var func = require('./');
 
-describe("func", function () {
-  var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  it("should generate integer set with size n", function() {
-    expect(func(array, 5).length).to.equal(5);
+var expect = require('expect.js');
+
+describe("func", function() {
+  it("can compute trailing zeros in n factorial", function() {
+    expect(func(3)).to.equal(0);
+    expect(func(6)).to.equal(1);
+    expect(func(12)).to.equal(2);
+    expect(func(17)).to.equal(3);
+    expect(func(20)).to.equal(4);
+  });
+
+  it("can compute large factorail", function() {
+    expect(func(100)).to.equal(24);
   });
 });

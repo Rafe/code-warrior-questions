@@ -1,2 +1,2 @@
-module.exports = function () {
+module.exports = function (list1, list2) {
 }
