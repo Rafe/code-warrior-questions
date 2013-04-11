@@ -21,13 +21,15 @@ list.json file included all files in all levels.
 
 ## Contribution
 
-First, Generate question by code-warrior:
+First, create a folder named as question name in ./temp, 
+
+Generate question by code-warrior:
 
     war generate
 
 will create pacakge.json, index.js, test.js and readme.md
 
 next, implement the test.js and make sure the test case can validate the program is correct.
-If you write the answer, saved in answer.js and leave index.js as stub.
+If you write the answer, save in answer.js and leave index.js as stub.
 
 Send pull request to the repository, it will be merged after tested and set with level and id.
