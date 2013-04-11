@@ -1,3 +1,2 @@
-module.exports = function(n) {
-
+var breadthFirstSearch = exports.breadthFirstSearch = function (node, n, tracker) {
 }

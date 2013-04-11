@@ -9,4 +9,14 @@ describe("func", function () {
     });
     expect(result.length).to.equal(4);
   });
+
+
+  it("should find all pairs of integer", function() {
+    var array = [23, 3, 31, 39, 51, 19, 47, 67, 88, 91];
+    var result = func(array, 70);
+    result.forEach(function(pair) {
+      expect(pair[0] + pair[1]).to.equal(70);
+    });
+    expect(result.length).to.equal(4);
+  });
 });

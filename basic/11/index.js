@@ -1,6 +1,8 @@
-var rand5 = function() {
-  return Math.floor(Math.random() * 5) + 1;
-}
-
-module.exports = function () {
+var add = module.exports = function(a, b) {
+  if (b == 0) {
+    return a;
+  };
+  var sum = (a ^ b);
+  var carry = ((a & b) << 1);
+  return add(sum, carry);
 }

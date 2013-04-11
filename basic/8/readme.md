@@ -1,8 +1,13 @@
-#Transfer word to numbers
+#merge sort
 
-Given an integer between 0 and 999,999,
-print an English phrase that describes the integer
-(eg, "One Thousand, Two Hundred and Thirty Four;
+Write a merge function that merge two array in ascending order
 
+Example:
 
-####power by [code-warrior](http://code-warrior.herokuapp.com)
+    var array1 = [2, 4, 6, 8];
+    var array2 = [1, 3, 5, 7];
+    merge(array1, array2) => [1, 2, 3, 4, 5, 6, 7, 8]
+
+Implement a merge sort using merge function
+
+##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)

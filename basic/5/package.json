@@ -1,6 +1,6 @@
 {
-  "id": "5",
-  "name": "factorial-trailing-zeros",
+  "id": 5,
+  "name": "breadth and depth first search",
   "level": "basic",
-  "author": "CareerCup"
+  "author": "Jimmy Chao"
 }

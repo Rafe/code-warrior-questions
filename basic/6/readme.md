@@ -1,6 +1,10 @@
-## Write a method which finds the maximum of two number
-## You should not use if-else or any other comparison operator
+#linked list remove
 
-    Example
-    Input: 5, 10
-    Output: 10
+Write a function to remove duplicated elements in a linked list
+
+##Extra
+
+Write the function without using temporary varible
+Function should return the head of the list.
+
+##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)

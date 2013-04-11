@@ -114,26 +114,3 @@ var search = function(graph, start, end) {
 
   return false;
 }
-
-var turn = function(node) {
-  var left = node.left;
-  var right = node.right;
-  var originLeft = node.left;
-  var originRight = node.right;
-
-  //left
-  if (node.data) {
-    node.left = right.left;
-    node.right = right.right;
-    right.right = node.left
-    right.left = node.left
-    var right.left
-  };
-}
-
-[1,2,3,4,5,6,7,8, 9]
-
-     1
-    5, 3
-   2,8,6,7
-    4,9

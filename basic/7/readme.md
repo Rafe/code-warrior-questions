@@ -1,13 +1,17 @@
-#The game of Master mind
+#insertion sort
 
-The computer has four slots containing balls that are red (R), yellow (Y), green (G) or blue(B).
-For example, the computer might have RGGB (e.g., Slot #1 is red, Slot #2 and #3 are green, Slot #4 is blue)
+implement an insert function that insert element to array,
+you can not use javascript splice for that
 
-You, the user, are trying to guess the solution. You might, for example, guess YRGB
+example:
 
-When you guess the correct color for the correct slot, you get a "hit".
-If you guess a color that exists but is in the wrong slot, you get a "pseudo-hit".
+    var array = [1, 3, 5, 7, 9, 4];
 
-For each guess, you are told the number of hits and pseudo-hits;
+    insert(array, 5, array[5]);
 
-Write a function that return the hit and pesudo-hits
+              v        v
+    => [1, 3, 4, 5, 7, 9]; //insert array[5] into correct part
+
+implement insertion sort using the insert function
+
+##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)

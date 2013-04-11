@@ -3,7 +3,7 @@
 [Code Warrior](http://github.com/Rafe/code-warrior)
 
 This is the submodule of code-warrior, which include all algorithm questions 
-and test cases for questions.
+and test cases for code-warrior
 
 Each question included:
 
@@ -14,10 +14,10 @@ Each question included:
 
 ## Structure
 
-Every question will fit in three level, basic, moderate and hard
+Every question will fit in three levels: basic, moderate and hard
 and in the folder which named by the question id.
 
-list.json file include all files in all levels.
+list.json file included all files in all levels.
 
 ## Contribution
 

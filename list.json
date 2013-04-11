@@ -1,20 +1,43 @@
 {
   "basic": {
     "1": "binary search",
-    "2": "fibonacci",
+    "2": "fabonacci",
     "3": "quicksort",
-    "4": "swap without varible",
-    "5": "tic tac toe",
-    "6": "factorail trailing zeros",
-    "7": "max with bit",
-    "8": "game of master mind",
-    "9": "number to words",
-    "10": "continous sequence sum",
-    "11": "frequency of occurrences",
-    "12": "random 5",
-    "13": "find all pair sum"
+    "4": "tree traversal",
+    "5": "breadth and depth first search",
+    "6": "linked list remove",
+    "7": "insertion sort",
+    "8": "merge sort",
+    "9": "tree depth",
+    "10": "frequency of occurrences",
+    "11": "adds without +"
   },
   "moderate": {
-    "1": "tbd"
+    "2": "shuffle the deck",
+    "3": "random generate set of integers",
+    "4": "count 2s",
+    "5": "",
+    "6": "find n-largest number",
+    "7": "",
+    "8": "longest word in words",
+    "9": "search string",
+    "10": "maintain median",
+    "11": "word shift",
+    "12": "largest sub square",
+    "13": "test",
+    "14": "largest possible retangle"
+  },
+  "temp": {
+    "3": "swap-without-varible",
+    "4": "tic-tac-toe",
+    "5": "factorial-trailing-zeros",
+    "6": "max-with-bit",
+    "7": "game of master mind",
+    "8": "number to words",
+    "9": "continous sequence sum",
+    "11": "random 5",
+    "12": "find all pair sum",
+    "14": "different numbers",
+    "15": "stack with min"
   }
 }

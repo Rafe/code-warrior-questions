@@ -2,16 +2,12 @@ var func = require("./");
 var expect = require("expect.js")
 
 describe("func", function () {
-  it("add numbers", function() {
-    expect(func(1,1)).to.equal(2);
-    expect(func(5,5)).to.equal(10);
-    expect(func(21,26)).to.equal(47);
-    expect(func(123,456)).to.equal(579);
-    expect(func(1000,2222)).to.equal(3222);
-    expect(func(40123,30124)).to.equal(70247);
+  it("can return pseudo hit", function() {
+    expect(func("RYGB", "BGYR")).to.eql([0, 4]);
+    expect(func("YYGG", "BGYR")).to.eql([0, 2]);
   });
-
-  it("should not include +", function() {
-    expect(func.toString()).to.not.contain('+');
-  });
+  it("can return hit", function() {
+    expect(func("RYGB", "RYGB")).to.eql([4, 0]);
+    expect(func("RYGB", "BYGR")).to.eql([2, 2]);
+  })
 });

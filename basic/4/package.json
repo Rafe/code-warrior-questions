@@ -1,6 +1,6 @@
 {
-  "id": "4",
-  "name": "tic-tac-toe",
+  "id": 4,
+  "name": "tree traversal",
   "level": "basic",
-  "author": "CareerCup"
+  "author": "Jimmy Chao"
 }

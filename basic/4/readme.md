@@ -1,1 +1,9 @@
-###Design an algorithm to figure out if someone has won in a game of tic-tac-toe
+#Tree traversal
+
+Implement the inorder, preorder, postorder traversal function for tree
+
+#Extra
+
+Implement traversal function in iteration
+
+##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)

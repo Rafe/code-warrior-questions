@@ -1,40 +1,31 @@
-var func = require("./");
+var merge = require("./").merge,
+    sort = require("./").sort;
 var expect = require("expect.js")
 
-describe("func", function () {
-  it("can return single words of number", function() {
-    expect(func(1)).to.eql("one");
-    expect(func(2)).to.eql("two");
-    expect(func(3)).to.eql("three");
-    expect(func(4)).to.eql("four");
-    expect(func(5)).to.eql("five");
-    expect(func(6)).to.eql("six");
-    expect(func(7)).to.eql("seven");
-    expect(func(8)).to.eql("eight");
-    expect(func(9)).to.eql("nine");
+describe("merge sort", function () {
+  describe("merge", function() {
+    it("should merge 2 array", function() {
+      var array1 = [1, 3, 5, 7];
+      var array2 = [2, 4, 6, 8];
+      expect(merge(array1, array2)).to.eql([1, 2, 3, 4, 5, 6, 7, 8]);
+    });
   });
 
-  it("can return double digits words", function() {
-    expect(func(10)).to.eql("ten");
-    expect(func(21)).to.eql('twenty one');
-    expect(func(12)).to.eql('twelve');
-    expect(func(13)).to.eql('thirteen');
-    expect(func(17)).to.eql('seventeen');
-  });
+  describe("sort", function() {
+    it("should call merge function", function() {
+      expect(sort.toString()).to.contain('merge');
+    });
 
-  it("can return 3 digits words", function() {
-    expect(func(123)).to.eql('one hundred twenty three');
-    expect(func(430)).to.eql('four hundred thirty');
-    expect(func(401)).to.eql('four hundred one');
-  });
+    it("should sort array", function() {
+      var array = [4, 2, 7, 9, 19, 22, 5, 10];
+      expect(sort(array)).to.eql([2, 4, 5, 7, 9, 10, 19, 22]);
+    });
 
-  it("can return 5 digits words", function() {
-    expect(func(12345)).to.eql('twelve thousand three hundred fourty five');
-  });
-
-  it("can return 6 digits words", function() {
-    expect(func(123456)).to
-      .eql('one hundred twenty three thousand'
-          + ' four hundred fifty six');
+    it("should sort array", function() {
+      var array = [100, 41, 23, 44, 10, 58, 66, 74, 99, 101, 101, 222];
+      expect(sort(array)).to.eql(
+        [10, 23, 41, 44, 58, 66, 74, 99, 100, 101, 101, 222]
+      );
+    });
   });
 });

@@ -1,11 +1,11 @@
-# Continous sequence sum
+#tree depth
 
-You are given an array of integers (both positive and negative).
-Find the continous sequence with the largest sum. Return the sum.
+Write function to calculate min depth and max depth of a tree.
 
-##Example
+#Extra
 
-    Input: {2, -8, 3, -2, 4, -10}
-    Output: 5 (i.e, {3, -2, 4})
+Write a function to check if the tree are balanced
 
-##Powerd by [CodeWarrior](http://code-warrior.herokuapp.com)
+Also, write a function to print the tree by levels
+
+##Powered by [CodeWarrior](http://code-warrior.herokuapp.com)
