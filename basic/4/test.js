@@ -17,7 +17,7 @@ describe("tree traversal", function () {
 
   describe("inorder", function() {
     it("should show inorder sequence", function() {
-      var tracker = []
+      var tracker = [];
       inorder(tree, tracker);
       expect(tracker).to.eql([ 8, 4, 9, 2, 10, 5, 11, 1, 12, 6, 13, 3, 14, 7, 15 ]);
     });
@@ -25,7 +25,7 @@ describe("tree traversal", function () {
 
   describe("preorder", function() {
     it("should show preorder sequence", function() {
-      var tracker = []
+      var tracker = [];
       preorder(tree, tracker);
       expect(tracker).to.eql([ 1, 2, 4, 8, 9, 5, 10, 11, 3, 6, 12, 13, 7, 14, 15 ]);
     });
@@ -33,7 +33,7 @@ describe("tree traversal", function () {
 
   describe("postorder", function() {
     it("should show postorder sequence", function() {
-      var tracker = []
+      var tracker = [];
       postorder(tree, tracker);
       expect(tracker).to.eql([ 8, 4, 9, 2, 10, 5, 11, 12, 6, 13, 3, 14, 7, 15, 1 ]);
     });

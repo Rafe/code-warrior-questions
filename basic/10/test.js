@@ -18,13 +18,13 @@ describe("frequency of occurrences", function () {
     expect(func(book, 'were')).to.equal(3);
   });
 
-  it("should return zero for noun found word ", function() {
+  it("should return zero for not found word ", function() {
     expect(func(book, 'rainbow')).to.equal(0);
     expect(func(book, 'nyan')).to.equal(0);
     expect(func(book, 'cat')).to.equal(0);
   });
 
-  it("should fund upper case words", function() {
+  it("should find upper case words", function() {
     expect(func(book, 'Were')).to.equal(3);
     expect(func(book, 'Smith')).to.equal(4);
     expect(func(book, 'jasmin')).to.equal(1);

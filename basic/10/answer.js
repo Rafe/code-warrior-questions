@@ -1,4 +1,3 @@
-
 module.exports = function (book, word) {
   var words = {}
   word = word.toLowerCase();
