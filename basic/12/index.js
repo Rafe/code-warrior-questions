@@ -1,2 +1,2 @@
-module.exports = function(array, a, b) {
+module.exports = function(array, value) {
 }
