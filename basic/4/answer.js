@@ -14,7 +14,7 @@ var inorder = exports.inorder = function (head, tracker) {
 
 var postorder = exports.postorder = function (head, tracker) {
   if (head == null) return;
-  inorder(head.left, tracker);
-  inorder(head.right, tracker);
+  postorder(head.left, tracker);
+  postorder(head.right, tracker);
   tracker.push(head.data);
 }
