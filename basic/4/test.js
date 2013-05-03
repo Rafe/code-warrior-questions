@@ -35,7 +35,7 @@ describe("tree traversal", function () {
     it("should show postorder sequence", function() {
       var tracker = [];
       postorder(tree, tracker);
-      expect(tracker).to.eql([ 8, 4, 9, 2, 10, 5, 11, 12, 6, 13, 3, 14, 7, 15, 1 ]);
+      expect(tracker).to.eql([ 8, 9, 4, 10, 11, 5, 2, 12, 13, 6, 14, 15, 7, 3, 1 ]);
     });
   });
 });
