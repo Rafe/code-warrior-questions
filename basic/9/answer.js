@@ -1,15 +1,11 @@
 var minDepth = exports.minDepth = function (node) {
   if (node == null) return 0;
-  var left = minDepth(node.left) + 1;
-  var right = minDepth(node.right) + 1;
-  return left < right ? left : right;
+  return 1 + Math.min(minDepth(node.left), minDepth(node.right);
 }
 
 var maxDepth = exports.maxDepth = function (node) {
   if (node == null) return 0;
-  var left = maxDepth(node.left) + 1;
-  var right = maxDepth(node.right) + 1;
-  return left > right ? left : right;
+  return 1 + Math.max(maxDepth(node.left), maxDepth(node.right);
 }
 
 var printTree = exports.printTree = function(head) {
